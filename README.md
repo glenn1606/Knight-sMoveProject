@@ -78,18 +78,18 @@ Thuật toán back tracking
 
 
   Giả mã:
-  function chessboard(n, start_x, start_y):
+  - function chessboard(n, start_x, start_y):
   -   Khởi tạo bàn cờ nxn với tất cả ô được gán giá trị -1 (chưa đi qua).
   -   Đặt quân mã tại (start_x, start_y), đánh dấu bước đi đầu tiên là 0.
   -   Nếu knight_tour(start_x, start_y, 1) == TRUE:
       +    Xuất ra bàn cờ.
-  -     Ngược lại:
+  - Ngược lại:
         +  Xuất "Không tìm được đường đi".
 
 function knight_tour(x, y, step):
 - Nếu step == n * n: (đã đi hết bàn cờ)
 -          Trả về TRUE.
--     Tạo danh sách nước đi hợp lệ từ ô (x, y).
+- Tạo danh sách nước đi hợp lệ từ ô (x, y).
 -   Sắp xếp danh sách theo số lượng ô có thể đi tiếp (ít nhất lên trước).
 -    Duyệt từng nước đi (next_x, next_y) trong danh sách:
         + Nếu ô (next_x, next_y) hợp lệ:

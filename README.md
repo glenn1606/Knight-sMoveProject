@@ -5,8 +5,8 @@
 |---|---|---|---|
 | 1 | Dương Hoàng Anh | 24022762 | Nhóm trưởng |
 | 2 | Nguyễn Hoàng Anh | 24022764 | Thành viên |
-| 3 | Ngô Gia Huy| 24022801 | Thành viên |
-| 4 | Quách Đại Dương| | 24021444 | Thành viên |  
+| 3 | Ngô Gia Huy | 24022801 | Thành viên |
+| 4 | Quách Đại Dương| 24021444 | Thành viên |  
 
 ---
 
@@ -103,6 +103,7 @@ function knight_tour(x, y, step):
 2 2
 (Mô tả input) (Tức là bàn cờ cỡ vừa 6x6, quân mã bắt đầu ở ô (2,2))  
 **Output:**  
+
 12  1 20 29 10  7  
 21 28 11  8 19 30  
  2 13  0 27  6  9  
@@ -114,6 +115,7 @@ function knight_tour(x, y, step):
 **Giải thích:**  
 (Mô tả cách giải)
 khởi tạo bàn cờ : gán tất cả các ô là giá trị -1 (tức chưa đi qua)
+
 -1  -1  -1  -1  -1  -1  
 -1  -1  -1  -1  -1  -1  
 -1  -1   0  -1  -1  -1  
@@ -136,6 +138,7 @@ khởi tạo bàn cờ : gán tất cả các ô là giá trị -1 (tức chưa 
 9 9
 (Mô tả input)  (Bàn cờ cỡ siêu to 10x10, quân mã bắt đầu ở 9x9 góc dưới bên phải)
 **Output:**  
+
 30  57  26   7  28  55  42   5  46  49  
 25   8  29  56  41   6  51  48  43   4  
 58  31  74  27  60  79  54  45  50  47  
@@ -146,6 +149,7 @@ khởi tạo bàn cờ : gán tất cả các ô là giá trị -1 (tức chưa 
 11  22  83  36  85  66  95  98   1  16  
 34  37  20  13  68  97  18  15  64  99  
 21  12  35  84  19  14  67  96  17   0  
+
 (Mô tả output)  các nước đi của quân mã
 **Giải thích:**  
 (Mô tả cách giải)

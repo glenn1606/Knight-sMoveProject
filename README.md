@@ -55,9 +55,13 @@ Thuật toán back tracking
 + Nếu gặp ngõ cụt, quay lui (gán lại giá trị -1 cho ô đó).
 - Nếu không có hướng nào hợp lệ, trả về false.
 
-  Thuật toán tối ưu
-  - Vì backtracking chọn ngẫu nhiên 8 hướng -> duyệt quá nhiều khả năng -> xử lí chậm / tăng độ phức tạp
+ NHƯỢC ĐIỂM CỦA CÁCH NÀY 
+ 
+  - Vì backtracking chọn ngẫu nhiên 8 hướng
+  - Duyệt tất cả các khả năng dẫn đến việc phải quay lui nhiều lần 
+  - Việc này làm tăng thời gian xử lí thuật toán
 
+ Thuật toán tối ưu
   - tối ưu bằng cách : Luôn lựa chọn nước đi ít lựa chọn nhất (nước đi mà có các nước đi kế tiếp là valid moves ít nhất)
   -> + Khi chọn như vậy sẽ tránh việc để lại các nước đi ít lựa chọn nhất cuối cùng, dẫn đến ngõ cụt phải quay lui làm tốn thời gian
 
@@ -183,7 +187,7 @@ khởi tạo bàn cờ : gán tất cả các ô là giá trị -1 (tức chưa 
 
 ## 5. Link video báo cáo
 [Video báo cáo nhóm X](#)
-
+https://vnueduvn-my.sharepoint.com/:v:/g/personal/24022762_vnu_edu_vn/Ee5HX_eWk8JGmQ67bVuCelkBDYe3Lu8gj3Y5hr3NdiwIzA?e=Mdj2Gb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 ---
 
 ## 6. Link source code

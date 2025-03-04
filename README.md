@@ -23,11 +23,12 @@ Gợi ý:
 ## 3. Hướng giải quyết bài toán
 ### a. Phân tích bài toán
 (Mô tả sơ bộ về bài toán, yêu cầu đầu vào - đầu ra, các ràng buộc nếu có)
-Bài toán Knight's Tour - Mã đi tuần : à bài toán tìm một đường đi của quân mã (knight) trên bàn cờ cỡ n x n sao cho từ một vị trí bất kì quân mã có thể đi qua mọi ô đúng 1 lần
-input : số nguyên dương n (kích cỡ bàn cờ)
+- Bài toán Knight's Tour - Mã đi tuần : là bài toán tìm một đường đi của quân mã (knight) trên bàn cờ cỡ n x n sao cho từ một vị trí bất kì quân mã có thể đi qua mọi ô đúng 1 lần
+
+-input : số nguyên dương n (kích cỡ bàn cờ)
         Hai số nguyên (x,y) >=0 đại diện cho vị trí của quân mã được đặt ngẫu nhiên
         
-output: in ra bàn cờ thể hiện các nước đi quân mã (nếu đã hoàn thành yêu cầu)
+-output: in ra bàn cờ thể hiện các nước đi quân mã (nếu đã hoàn thành yêu cầu)
         in ra "không tìm được đường đi nếu không có nước hợp lệ nào 
 
 Ràng buộc : 

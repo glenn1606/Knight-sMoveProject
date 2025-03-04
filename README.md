@@ -4,9 +4,9 @@
 | STT | Họ và tên | MSSV | Vai trò |
 |---|---|---|---|
 | 1 | Dương Hoàng Anh | 24022762 | Nhóm trưởng |
-| 2 | Nguyễn Hoàng Anh | 123457 | Thành viên ưu tú|
-| 3 | Ngô Gia Huy| 123458 | Thành viên |
-| 4 | Quách Đại Dương| | | 
+| 2 | Nguyễn Hoàng Anh | 24022764 | Thành viên |
+| 3 | Ngô Gia Huy| 24022801 | Thành viên |
+| 4 | Quách Đại Dương| | 24021444 | Thành viên |  
 
 ---
 

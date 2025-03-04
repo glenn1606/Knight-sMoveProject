@@ -13,9 +13,9 @@
 ## 2. Thông tin bài tập
 - **Knight's tour**: Trên bàn cờ NxN, con mã điểm (x, y). Tìm đường đi qua mọi ô đúng 1 lần.
 Gợi ý:
-●	Đệ quy thử từng nước đi.
-●	Nếu thăm hết mọi ô, thành công.
-●	Nếu đi vào ngõ cụt, quay lui.
+	Đệ quy thử từng nước đi.
+	Nếu thăm hết mọi ô, thành công.
+	Nếu đi vào ngõ cụt, quay lui.
 
 
 ---
@@ -74,25 +74,25 @@ Thuật toán back tracking
 
   Giả mã:
   function chessboard(n, start_x, start_y):
-    1. Khởi tạo bàn cờ nxn với tất cả ô được gán giá trị -1 (chưa đi qua).
-    2. Đặt quân mã tại (start_x, start_y), đánh dấu bước đi đầu tiên là 0.
-    3. Nếu knight_tour(start_x, start_y, 1) == TRUE:
+     Khởi tạo bàn cờ nxn với tất cả ô được gán giá trị -1 (chưa đi qua).
+     Đặt quân mã tại (start_x, start_y), đánh dấu bước đi đầu tiên là 0.
+     Nếu knight_tour(start_x, start_y, 1) == TRUE:
           Xuất ra bàn cờ.
        Ngược lại:
           Xuất "Không tìm được đường đi".
 
 function knight_tour(x, y, step):
-    1. Nếu step == n * n: (đã đi hết bàn cờ)
+     Nếu step == n * n: (đã đi hết bàn cờ)
           Trả về TRUE.
-    2. Tạo danh sách nước đi hợp lệ từ ô (x, y).
-    3. Sắp xếp danh sách theo số lượng ô có thể đi tiếp (ít nhất lên trước).
-    4. Duyệt từng nước đi (next_x, next_y) trong danh sách:
+     Tạo danh sách nước đi hợp lệ từ ô (x, y).
+     Sắp xếp danh sách theo số lượng ô có thể đi tiếp (ít nhất lên trước).
+     Duyệt từng nước đi (next_x, next_y) trong danh sách:
         a. Nếu ô (next_x, next_y) hợp lệ:
             i. Đặt bước đi step vào ô đó.
             ii. Gọi đệ quy knight_tourl(next_x, next_y, step + 1).
             iii. Nếu thành công, trả về TRUE.
             iv. Nếu thất bại, quay lui (gán lại giá trị -1).
-    5. Nếu không tìm thấy nước đi hợp lệ, trả về FALSE.
+     Nếu không tìm thấy nước đi hợp lệ, trả về FALSE.
 
 
 ---

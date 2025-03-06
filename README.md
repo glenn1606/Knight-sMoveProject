@@ -187,8 +187,8 @@ khởi tạo bàn cờ : gán tất cả các ô là giá trị -1 (tức chưa 
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm X](#)
-https://vnueduvn-my.sharepoint.com/:v:/g/personal/24022762_vnu_edu_vn/Ee5HX_eWk8JGmQ67bVuCelkBDYe3Lu8gj3Y5hr3NdiwIzA?e=Mdj2Gb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+[Video báo cáo nhóm 8](#)
+
 ---
 
 ## 6. Link source code
